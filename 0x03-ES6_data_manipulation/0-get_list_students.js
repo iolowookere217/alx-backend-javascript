@@ -1,21 +1,21 @@
-export default function getListStudents () {
-  const firstObject = {
+export default function getListStudents() {
+  const o1 = {
     id: 1,
     firstName: 'Guillaume',
-    location: 'San Francisco'
+    location: 'San Francisco',
   };
 
-  const secondOject = {
+  const o2 = {
     id: 2,
     firstName: 'James',
-    location: 'Columbia'
+    location: 'Columbia',
   };
 
-  const thirdObject = {
+  const o3 = {
     id: 5,
     firstName: 'Serena',
-    location: 'San Francisco'
+    location: 'San Francisco',
   };
 
-  return [firstObject, secondObject, thirdObject];
+  return [o1, o2, o3];
 }
